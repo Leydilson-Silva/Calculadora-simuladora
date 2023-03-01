@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora de juros compostos</title>
+        <!-- Importando estilização -->
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+        <!-- Importando javascript -->
+        <script src="mains.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>GitHub Profile</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Calculadora de Juros Compostos</h1>
+            <section id="simulacao">
+                <h3>Simulador de juros compostos</h3>
+                <form action="">
+                    <div>
+                        <label for="valor-inicial">Valor Inicial</label>
+                        <input id="valor-inicial" type="number">
+                    </div>
+                    <div>
+                        <label for="valor-mensal">Valor Mensal</label>
+                        <input id="valor-mensal" type="number">
+                    </div>
+                    <div>
+                        <label for="taxa-juros">Taxa de juros</label>
+                        <input id="taxa-juros" type="number">
+                    </div>
+                    <div>
+                        <label for="periodo">Período</label>
+                        <input id="periodo" type="number">
+                    </div>
+                    <div>
+                        <input type="submit" value="Calculadora">
+                        <button>Limpar</button>
+                    </div>
+                </form>
+            </section>
+
+            <section id="resultado">
+                <h2>Resultado</h2>
+                <div>
+                    <p>Valor Total</p>
+                    <p>R$ 0,00</p>
+                </div>
+                <div>
+                    <p>Valor Total Investido</p>
+                    <p>R$ 0,00</p>
+                </div>
+                <div>
+                    <p>Valor em Juros</p>
+                    <p>R$ 0,00</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            Coded by <a href="#">Leydilson Silva</a>
+        </footer>
+
+    </body>
+</html>
