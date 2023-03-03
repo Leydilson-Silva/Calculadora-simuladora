@@ -15,33 +15,41 @@
             <nav>
                 <ul>
                     <li>Home</li>
-                    <li> <a target="_blank" href="https://github.com/Leydilson-Silva">GitHub Profile</a> </li>
+                    <li> <a target="_blank"
+                            href="https://github.com/Leydilson-Silva">GitHub
+                            Profile</a> </li>
                 </ul>
             </nav>
         </header>
+
         <main>
             <h1>Calculadora de Juros Compostos</h1>
-            <section  id="simulacao">
+            <section id="simulacao">
                 <h3>Simulador de juros compostos</h3>
-                <form action="">
-                    <div  id="vi">
-                        <label  for="valor-inicial">Valor Inicial</label>
-                        <input id="valor-inicial" type="number">
+                <form>
+                    <div class="linha-form">
+                        <div id="input-form">
+                            <label for="valor-inicial">Valor Inicial</label>
+                            <input id="valor-inicial" type="number">
+                        </div>
+                        <div id="input-form">
+                            <label for="valor-mensal">Valor Mensal</label>
+                            <input id="valor-mensal" type="number">
+                        </div>
                     </div>
-                    <div id="vi">
-                        <label  for="valor-mensal">Valor Mensal</label>
-                        <input id="valor-mensal" type="number">
+
+                    <div class="linha-form">
+                        <div id="input-form">
+                            <label for="taxa-juros">Taxa de juros</label>
+                            <input id="taxa-juros" type="number">
+                        </div>
+                        <div id="input-form">
+                            <label for="periodo">Período</label>
+                            <input id="periodo" type="number">
+                        </div>
                     </div>
-                    <div id="vi">
-                        <label  for="taxa-juros">Taxa de juros</label>
-                        <input id="taxa-juros" type="number">
-                    </div>
-                    <div id="vi">
-                        <label  for="periodo">Período</label>
-                        <input id="periodo" type="number">
-                    </div>
-                    <div>
-                        <input type="submit" value="Calculadora">
+                    <div class="linha-form">
+                        <input class="btn-calcular" type="submit" value="Calcular">
                         <button>Limpar</button>
                     </div>
                 </form>
@@ -51,7 +59,7 @@
                 <h2>Resultado</h2>
                 <div>
                     <p>Valor Total</p>
-                    <p>R$ 0,00</p>                </div>
+                    <p>R$ 0,00</p> </div>
                 <div>
                     <p>Valor Total Investido</p>
                     <p>R$ 0,00</p>
@@ -63,6 +71,7 @@
             </section>
 
         </main>
+
         <footer>
             Coded by <a href="#">Leydilson Silva</a>
         </footer>
