@@ -1,16 +1,20 @@
-// Declarando variaaveis
-// Valores iniciais
-let valorInicial = 0;
-let valorMensal = 0;
-let taxaJuros = 0;
-let qtdMeses = 0;
-let resultado = 0;
+/* Declarando variaveis( diferença entre let e var){
+    let limitada ao scopo
+    var variavel global
+    const constante(valor imutavel)
+}
+    Valores iniciais*/
+var valorInicial = 0;
+var valorMensal = 0;
+var taxaJuros = 0;
+var qtdMeses = 0;
 
-//Resultados
-let totalFinal = 0;
-let totalInvestido = 0;
-let calcJuros = 0;
-let totalJuros = 0;
+//  Resultados
+var resultado = 0;
+var totalFinal = 0;
+var totalInvestido = 0;
+var calcJuros = 0;
+var totalJuros = 0;
 
 function getValueData(id) {
     var elemento = document.getElementById(id);
